@@ -1,0 +1,30 @@
+GUIA RÁPIDO PARA A DEFESA ORAL — HOSPITAL INFANTIL (11/11/2026)
+
+Arquivo principal: Apresentacao_Hospital_Infantil_A2.pptx (28 slides).
+Arquivo para visualização/upload: Apresentacao_Hospital_Infantil_A2.pdf.
+Relatório em formato acadêmico: Relatorio_Hospital_Infantil_ABNT.docx e .pdf.
+
+PONTOS IMPORTANTES PARA EXPLICAR EM SALA
+- A proposta é um sistema web interno de hospital infantil.
+- A equipe confirmou doze entidades: paciente, acompanhante, documentação,
+  colaborador, usuário, atendimento, registro de medicação, fornecedor,
+  estoque, requisição de materiais, equipamento e EPI.
+- Um colaborador pode ter 0 ou 1 conta USUARIO, e cada conta exige colaborador.
+- O diagrama físico recebido utiliza tipos Oracle; os scripts convertem para MySQL.
+- A LGPD vigente exige cuidados acrescidos com dados de saúde pediátricos.
+- O PL 2338/2023 ainda está em tramitação em 11/11/2026 e NÃO é lei vigente.
+- Não consta IA já incorporada no projeto; uso de IA na apresentação é hipotético.
+
+PRODUÇÃO DE EVIDÊNCIAS REAIS (NÃO EXECUTADAS NESTA ENTREGA)
+1) MySQL Workbench: executar 01_estrutura_mysql.sql e capturar SHOW TABLES.
+2) Executar 02_dados_ficticios.sql UMA VEZ. Verificar total de 10 por tabela.
+3) Executar 03_consultas_relatorios.sql e capturar o SQL e o resultado.
+4) Executar 04_demonstracao_ddl_dml_dql_dcl_tcl.sql e capturar evidências
+   de CREATE/ALTER/DROP, INSERT/UPDATE/DELETE, GRANT/REVOKE e COMMIT/ROLLBACK.
+5) Guardar imagens com versão do MySQL, hora e saída exibidas, sem dados reais.
+
+TRANSPARÊNCIA
+Houve pré-validação auxiliar da estrutura em SQLite com 12 tabelas,
+120 registros e integridade referencial, mas nenhuma execução MySQL
+foi verificada neste ambiente. NÃO apresentar resultados fictícios como
+se fossem capturas reais de banco em produção.

@@ -1,0 +1,24 @@
+PRE-VALIDACAO EM SQLITE (NAO E TESTE MYSQL)
+
+12 tabelas e 120 registros ficticios; integridade referencial verificada.
+
+Contagens:
+ paciente: 10
+ colaborador: 10
+ fornecedor: 10
+ usuario: 10
+ documentacao: 10
+ acompanhante: 10
+ atendimento: 10
+ registro_medicacao: 10
+ estoque: 10
+ epi: 10
+ equipamento: 10
+ requisicao_de_materiais: 10
+
+Exemplo consulta JOIN 5 primeiras linhas:
+('Bruno Ferreira', 'Daniel Santos', '2026-10-06')
+('Camila Lima', 'Elisa Ribeiro', '2026-10-07')
+('Daniel Souza', 'Felipe Gomes', '2026-10-08')
+('Elisa Almeida', 'Gabriela Costa', '2026-10-09')
+('Felipe Santos', 'Heitor Martins', '2026-10-10')
